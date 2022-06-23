@@ -4,7 +4,7 @@ import Environment from './components/Environment';
 
 function App() {
   return (
-    <div className="math-game">
+    <div className="math-game" >
       <h1>Math Game</h1>
       <Environment />
     </div>

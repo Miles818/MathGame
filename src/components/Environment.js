@@ -6,11 +6,14 @@ function Environment() {
 
 
   return (
-    <svg width="410" height="610">
-        <rect width="400" height="600" fill="#00122B"></rect>
+    // <svg className="environment" width="700" height="600">
+    //     <rect width="700" height="600" fill="#00122B"></rect>
+    //     <Protagonist />
+    //     <div id="rect"></div>
+    // </svg>  
+    <div className="environment">
         <Protagonist />
-    </svg>
-    
+    </div>
   )
 }
 
