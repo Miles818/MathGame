@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import QuestionContext from '../context/QuestionContext';
+import {useContext} from 'react';
 
 function MathSolutions() {
 
-    
+  const {num} = useContext(QuestionContext);
+
+  
 
   return (
     <div className="answer">
