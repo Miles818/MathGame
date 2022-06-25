@@ -39,9 +39,5 @@
     width: 500px;
     color: white;
     top: 500px;
-    left: 240px;
-}
-
-#bt1, #bt2, #bt3, #bt4 {
-    float: left;
+    left: 250px;
 }
