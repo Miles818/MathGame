@@ -4,9 +4,6 @@ import {useContext} from 'react';
 
 function MathQuestion() {
 
-    //const num = Math.floor(Math.random() * (20 + 1));
-    //const [prompt, newPrompt] = useState(num);
-
   const {num} = useContext(QuestionContext);
 
   return (
