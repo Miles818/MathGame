@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Protagonist from './Protagonist';
-
+import MathQuestion from './MathQuestion';
+import MathSolutions from './MathSolutions';
 
 function Environment() {
 
@@ -12,7 +13,9 @@ function Environment() {
     //     <div id="rect"></div>
     // </svg>  
     <div className="environment">
-        <Protagonist />
+        {/* <Protagonist /> */}
+        <MathQuestion />
+        <MathSolutions />
     </div>
   )
 }
