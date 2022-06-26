@@ -8,7 +8,7 @@ import {useContext} from 'react';
 
 function Environment() {
 
-  const {start, startOrStop} = useContext(StartGameContext);
+  const {start} = useContext(StartGameContext);
 
   function beginGame () {
     if (start) {
