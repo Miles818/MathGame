@@ -4,12 +4,10 @@ const QuestionContext = createContext();
 
 export function QuestionProvider({children}) {
 
-
     const [num, setNum] = useState(Math.floor(Math.random() * (20 + 1)))
 
-    //const num = Math.floor(Math.random() * (20 + 1));
-    const updateNum = (bool, callback) => {
-        callback(bool)
+    const updateNum = (input, callback) => {
+        callback(input)
         setNum(Math.floor(Math.random() * (20 + 1)));
     }
 
