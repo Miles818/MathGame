@@ -5,6 +5,7 @@ import MathSolutions from './MathSolutions';
 import GameScore from './GameScore';
 import StartMenu from './StartMenu';
 import StartGameContext from '../context/StartGameContext';
+import TurnCount from './TurnCount';
 
 function Environment() {
 
@@ -14,6 +15,7 @@ function Environment() {
     if (start) {
       return (
       <>
+      <TurnCount />
       <GameScore />
       <MathQuestion />
       <MathSolutions />
