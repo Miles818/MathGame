@@ -16,8 +16,6 @@ function Environment() {
   
   function beginGame () {
     if (turn === 0) {
-      // startOrStop(false)
-      // resetTurn()
       return(<GameOverScreen />)
     } else if (start) {
       return (

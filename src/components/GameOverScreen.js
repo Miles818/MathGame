@@ -1,5 +1,4 @@
 import React from 'react';
-import Environment from './Environment';
 import StartGameContext from '../context/StartGameContext';
 import QuestionContext from '../context/QuestionContext';
 import ScoreContext from '../context/ScoreContext';
@@ -15,13 +14,10 @@ function GameOverScreen() {
         updateScore()
         startOrStop(false)
         resetTurn()
-        // return(
-        //     <Environment />
-        // )
     }
 
   return (
-    <div>
+    <div className="menuBtn">
         <id id="finalscore">You scored {score}</id>
         <button id="resetBtn" onClick={resetGame}>RESET</button>
     </div>

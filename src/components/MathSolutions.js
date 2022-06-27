@@ -11,7 +11,11 @@ function MathSolutions() {
   // Function that creates a valid addition expression for 'num'
   const validExpression = () => {
     const n = num - Math.floor(Math.random() * (num + 1));
-    return (<button onClick={() => updateNum(true, updateScore)}>{`${n} + ${num - n}`}</button>)
+    return (
+    <button className="answerBtn" onClick={() => updateNum(true, updateScore)}>
+      {`${n} + ${num - n}`}
+      </button>
+    )
   }
 
   // Function that creates an invalid addition expression for 'num'
@@ -20,7 +24,11 @@ function MathSolutions() {
     n1 = Math.floor(Math.random() * (20 + 1));
     n2 = Math.floor(Math.random() * (20 + 1));
     if (n1 + n2 === num) return invalidExpression();
-    return  (<button onClick={() => updateNum(false, updateScore)}>{`${n1} + ${n2}`}</button>)
+    return  (
+    <button className="answerBtn" onClick={() => updateNum(false, updateScore)}>
+      {`${n1} + ${n2}`}
+      </button>
+    )
   }
 
   // Function that generates four buttons with valid and invalid expressions

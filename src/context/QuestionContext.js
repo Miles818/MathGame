@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useState } from "react";
 
 
 // Context to provide question promt, and amount of turns player takes.

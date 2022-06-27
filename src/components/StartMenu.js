@@ -11,7 +11,8 @@ function StartMenu() {
     }
     
     return (
-    <div>
+    <div className="menu">
+        <text id="menuTxt">Select the button with the correct math expression for the number shown to you.</text>
         <button id="startBtn" onClick={startGame}>PLAY</button>
     </div>
   )
