@@ -6,13 +6,20 @@ import GameScore from './GameScore';
 import StartMenu from './StartMenu';
 import StartGameContext from '../context/StartGameContext';
 import TurnCount from './TurnCount';
+import QuestionContext from '../context/QuestionContext';
+import GameOverScreen from './GameOverScreen';
 
 function Environment() {
 
-  const {start} = useContext(StartGameContext);
+  const {start, startOrStop} = useContext(StartGameContext);
+  const {turn, resetTurn} = useContext(QuestionContext);
   
   function beginGame () {
-    if (start) {
+    if (turn === 0) {
+      // startOrStop(false)
+      // resetTurn()
+      return(<GameOverScreen />)
+    } else if (start) {
       return (
       <>
       <TurnCount />
