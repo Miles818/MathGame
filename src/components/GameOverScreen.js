@@ -17,8 +17,8 @@ function GameOverScreen() {
     }
 
   return (
-    <div className="menuBtn">
-        <id id="finalscore">You scored {score}</id>
+    <div className="menu">
+        <id id="finalscore">FINAL SCORE: {score}</id>
         <button id="resetBtn" onClick={resetGame}>RESET</button>
     </div>
   )

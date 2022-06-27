@@ -14,7 +14,6 @@ function App() {
         <ScoreProvider>
           
             <div className="math-game" >
-              <h1>Match Expressions!</h1>
               <Environment />
             </div>
           
