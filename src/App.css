@@ -30,6 +30,18 @@
     left: 325px;
 }
 
+.time {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: purple;
+    color: white;
+    text-align: center;
+    margin: auto;
+    top: 50px;
+    left: 325px;
+}
+
 #question {
     vertical-align: text-top;
 }

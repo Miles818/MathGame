@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
+import {useContext} from 'react';
 import MathQuestion from './MathQuestion';
 import MathSolutions from './MathSolutions';
 import GameScore from './GameScore';
 import StartMenu from './StartMenu';
 import StartGameContext from '../context/StartGameContext';
-import {useContext} from 'react';
 
 function Environment() {
 
   const {start} = useContext(StartGameContext);
-
+  
   function beginGame () {
     if (start) {
       return (

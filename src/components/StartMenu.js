@@ -5,7 +5,10 @@ import {useContext} from 'react';
 function StartMenu() {
 
     const {startOrStop} = useContext(StartGameContext);
-    const startGame = () => startOrStop(true)
+    
+    const startGame = () => {
+        startOrStop(true)
+    }
     
     return (
     <div>
@@ -14,4 +17,4 @@ function StartMenu() {
   )
 }
 
-export default StartMenu
+export default StartMenu;
