@@ -1,0 +1,146 @@
+#gametitle {
+    position: relative;
+    margin: 20px auto;
+}
+
+.environment {
+    position: relative;
+    height: 600px;
+    width: 700px;
+    background: #509456;
+    margin: 20px auto;
+    border-radius: 25px;
+    border: 5px solid #003a00;
+    transform: translate(0%, 10%);
+}
+
+.mathquestion {
+    position: relative;
+    height: 150px;
+    width: 290px;
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    margin: auto;
+    top: -100px;
+    left: 0px;
+}
+
+#question {
+    /* position: absolute;
+    text-align: center;
+    margin: auto; */
+}
+
+.score {
+    height: 50px;
+    width: 100px;
+    color: white;
+    top: 100px;
+    left: 325px;
+    transform: translate(10%, 0%);
+}
+
+
+.turn {
+    
+    height: 50px;
+    width: 80px;
+    color: white;
+    top: 90px;
+    left: 325px;
+    transform: translate(760%, 100%);
+}
+
+.answer {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    height: 50px;
+    width: 500px;
+    color: white;
+
+}
+
+.answerBtn {
+    border: 3px solid red;
+    background-color: orange;
+    color: black;
+    height: 60px;
+    width: 120px;
+    font-size: 30px;
+    border-radius: 25px;
+    transform: translate(100%, 100%);
+}
+
+.answerBtn:hover {
+    border: 3px solid orange;
+    background-color: yellow;
+}
+
+.menu {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 25px;
+    height: 100px;
+    width: 295px;
+    transform: translate(5%, 80%);
+}
+
+#menuTxt {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    transform: translate(0%, 60%);
+}
+
+#startBtn {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid red;
+    background-color: orange;
+    color: black;
+    height: 70px;
+    width: 170px;
+    font-size: 50px;
+    border-radius: 25px;
+    transform: translate(25%, 100%);
+}
+
+#startBtn:hover {
+    border: 3px solid orange;
+    background-color: yellow;
+}
+
+#resetBtn {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #0300b3;
+    background-color: #bf50ff;
+    color: black;
+    height: 70px;
+    width: 190px;
+    font-size: 50px;
+    border-radius: 25px;
+    transform: translate(25%, 400%);
+}
+
+#resetBtn:hover {
+    border: 3px solid #0400ff;
+    background-color: #ea97ff;
+}
+
+#finalscore {
+    position: absolute;
+    height: 70px;
+    width: 320px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    transform: translate(-6%, 50%);
+}
